@@ -1,8 +1,15 @@
 {
-  "name": "mono-new-wipi",
+  "name": "new-wipi",
   "version": "1.0.0",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  "usingWorkspances": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {},
+  "dependencies": {
+    "fs-extra": "^10.1.0"
+  }
 }
